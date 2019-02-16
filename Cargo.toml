@@ -1,5 +1,4 @@
 [package]
-authors = ["Ingmar Jager <ingmarjager@gmail.com>"]
 edition = "2018"
 readme = "README.md"
 name = "lpc11blinky"
