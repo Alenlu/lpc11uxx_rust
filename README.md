@@ -12,6 +12,29 @@ To build embedded programs using this template you'll need:
 - `rust-std` components (pre-compiled `core` crate) for the ARM Cortex-M
   targets. Run:
 
+  
+Install latest rust
+
+``` console
+rustup update
+rustup toolchain list
+```
+
+Choose latest stable version
+
+``` console
+rustup default stable-x86_64-apple-darwin
+```
+
+Or use the nightly
+
+``` console
+rustup toolchain install nightly
+rustup default nightly  
+```
+
+Install the cross compile targets
+
 ``` console
 $ rustup target add thumbv6m-none-eabi thumbv7m-none-eabi thumbv7em-none-eabi thumbv7em-none-eabihf
 ```
